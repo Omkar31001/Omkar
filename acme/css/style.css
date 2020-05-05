@@ -1,0 +1,146 @@
+body{
+	font:15px/1.5em Arial, Helvetica, sans-serif;
+	padding:0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	background:#35424a;/*greyish sought of color*/
+	color: white;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:  3px orange solid;  
+
+}
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+.container ul{
+	margin: 0;
+	padding: 0;
+}
+.container li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+ #branding h1{
+	float: left;
+	
+}
+nav{
+	float: right;
+	margin:10px;
+}
+ header .highlight, header .current a{
+ 	color: #e8491d;
+ 	font-weight: bold;
+}
+ header a:hover{
+ 	color: #ccc;
+ 	font-weight: bold;
+}
+ #showcase{
+ 	min-height: 1000px;
+ 	background: url(../img/wb.jpg) no-repeat 1px ; 
+ 	color: white;
+ 	text-align: center;
+ 
+ }
+ #showcase h1{
+ 	margin-bottom:10px;
+ 	margin-top: 100px;
+ 	font-size: 55px;
+ }
+ #showcase p{
+ 	font-size: 20px;
+ }
+ #newsletter{
+ 	padding: 15px;
+ 	color: #fff;
+ 	background: #35424a;
+ }
+ #newsletter button,form{
+ 	float: right;
+ }
+ #newsletter button{
+ 	font-weight: bold;
+ 	margin-left: 20px;
+ 	background-color:#ff6600;
+ 	border: none;
+ }
+ #newsletter h1{
+ 	float: left;
+ }
+#newsletter form{
+	margin-top: 15px;
+}
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+#boxes{
+	margin-top: 20px;
+
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 20px;
+}
+#boxes .box img{
+	width: 90px;
+	height: auto;
+}
+#sidebar{
+	margin-top: 40px;
+	float: right;
+width: 150px;
+height:auto;
+	color: #fff;
+	padding: 30px; 
+	background: #35424a;
+	
+}
+	article{
+	float: left;
+	width: 30%;
+	margin-right: 50px;
+}
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
+	background: #e8491d;
+	text-align: center;
+}
+#sidebar h1{
+	color:#fff;
+	font-weight: bold;
+
+}
+#services p{
+float: right;
+}
+#services h3{
+	margin-bottom: 6px;
+
+}
+#services .pricing{
+	float: left;
+	padding: auto;
+	font-weight: bold;
+}
+.web{
+	margin-bottom: 50px;
+}
